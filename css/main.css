@@ -1,0 +1,132 @@
+* {padding-top: 1px;}
+body {
+    background-color: #7ecef0; 
+}
+h1 {
+    font-family: Courier New, Courier, monospace;
+}
+h2 {
+    font-family: Courier New, Courier, monospace;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    padding: 0 10%;
+}
+form {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    float: left;
+    font-size: 1.25em;
+    text-align: right;
+    width: 4em;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 1em;
+}
+input {
+    border-radius: 10px;
+}
+textarea {
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: lightgrey;
+    border-style: inset;
+    border-width: 2px;
+}
+button {
+    border-radius:10px;
+}
+.block {
+    display: block;
+    margin-top: 10px;
+}
+.btn {
+    padding: 2px 18px;
+    background-color: blueviolet;
+    color: white;
+    border-color: blueviolet;
+}
+.head{
+    overflow: auto;
+    width: 100%;
+}
+.head .extlinks i{
+    float: right;
+    padding: 8px;
+    font-size: 40px;
+    color: black;
+}
+.main{
+    padding: 10px;
+}
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 10px;
+}
+.main .nav{
+    text-align: center;
+    padding: 10px;
+}
+.main .nav a {
+    font-family: Courier New, Courier, monospace;
+    color: blueviolet;
+    font-size: 1.75em;
+    font-weight: bold;
+    padding: 2%;
+}
+.main .nav p {
+    display: inline;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.75em;
+    font-weight: bold;
+    padding: 2%;
+}
+.content{
+    position: relative;
+    text-align: center;
+}
+.content img{
+    height: 10%;
+    width: 15%;
+    min-height: 100px;
+    min-width: 160px;
+}
+.content i {
+    font-size: 7em;
+    padding: 20px;
+}
+
+/* ***** mobile ******* */
+@media only screen and (max-width : 600px) {
+    p {
+        padding: 0 5%;
+    }
+    .head .extlinks{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .main .nav{
+        display: block;
+    }
+    .main .nav a {
+        display: block;
+        font-size: 1.5em;
+        padding: 2%;
+    }
+    .content i {
+        display: block;
+        font-size: 7em;
+        padding: 20px;
+    }
+    } /* END of smartphone */
